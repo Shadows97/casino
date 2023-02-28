@@ -5,7 +5,7 @@ export default {
   ssr: false,
 
   server: {
-    host: '127.0.0.1',
+    host: '0.0.0.0',
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
