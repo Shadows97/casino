@@ -43,4 +43,8 @@ export default {
   'start-after': 'Start after',
   'withdraw-on': 'Withdraw on',
   'game-started': 'Game has already started, wait until the end ',
+  'forget-password': "Forgot your password ?",
+  'sign-in': 'Sign in',
+  'new-account': "Create an account",
+  'sign-up': "Register"
 }

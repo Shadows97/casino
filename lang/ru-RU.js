@@ -43,4 +43,8 @@ export default {
   'start-after': 'Запуск через',
   'withdraw-on': 'Вывести на',
   'game-started': 'Игра уже началась, дождитесь окончания',
+  'forget-password': "Забыли пароль ?",
+  'sign-in': 'Войти в аккаунт',
+  'new-account': "Создать аккаунт",
+  'sign-up': "Зарегистрироваться"
 }

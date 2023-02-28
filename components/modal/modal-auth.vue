@@ -6,7 +6,7 @@
       </svg>
     </template>
     <template #header>
-      <h3>Вход</h3>
+      <h3>{{$t('login')}}</h3> 
     </template>
     <section-social class="mb-5" />
     <form class="grid grid-cols-1 gap-5" @submit.prevent="login">
@@ -15,7 +15,7 @@
           v-model="user.email"
           class="!pl-12"
           variant="strong"
-          placeholder="Логин или Email"
+          :placeholder="$t('your-email')"
         ></t-input>
         <img
           class="absolute transform -translate-y-1/2 top-1/2 left-4"
@@ -29,7 +29,7 @@
           class="!pl-12"
           variant="strong"
           type="password"
-          placeholder="Пароль"
+          :placeholder="$t('password')"
         ></t-input>
         <img
           class="absolute top-4 left-4"
@@ -40,13 +40,13 @@
           type="button"
           class="block mt-1 ml-auto text-xs font-semibold leading-none text-right text-primary"
         >
-          Забыли пароль ?
+          {{ $t('forget-password') }}
         </button>
       </div>
       <div class="grid grid-cols-1 gap-3">
         <t-button type="submit" variant="primary">
           <div class="flex items-center justify-center py-2">
-            <span>Войти в аккаунт</span>
+            <span>{{$t('sign-in')}}</span>
             <img class="ml-2" src="/img/icon/next.svg" alt="" />
           </div>
         </t-button>
@@ -55,7 +55,7 @@
           class="font-semibold text-primary"
           @click="showRegister"
         >
-          Создать аккаунт
+          {{$t('new-account')}}
         </button>
       </div>
     </form>
