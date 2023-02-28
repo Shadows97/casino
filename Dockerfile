@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . .
 
-Run apt-get install -y g++ build-essential
+RUN apt-get update && apt-get install -y g++ build-essential
 
 RUN npm install && npm run build
 
