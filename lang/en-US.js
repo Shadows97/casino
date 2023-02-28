@@ -46,5 +46,6 @@ export default {
   'forget-password': "Forgot your password ?",
   'sign-in': 'Sign in',
   'new-account': "Create an account",
-  'sign-up': "Register"
+  'sign-up': "Register",
+  'social': "Through social net"
 }
