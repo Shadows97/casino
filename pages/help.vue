@@ -6,72 +6,72 @@
         class="p-4 bg-white xl:p-12 xl:col-span-4 rounded-3xl help__annotation"
       >
         <p class="max-w-4xl">
-          <b>Возникли вопросы?</b> Ознакомьтесь с ответами на самые популярные
-          вопросы, связанные с работой сайта <b>EZCASH</b>. Скорее всего, Вы
-          найдете ответ на свой вопрос здесь. Если вы не нашли ответ на свой
-          вопрос – обратитесь в нашу службу поддержки. Вам с удовольствием
-          помогут!
+          <b>Any questions?</b> 
+          Check out the answers to the most popular questions related to the operation of the site 
+          <b>EZCASH</b>. Most likely you will find the answer to your question here. 
+          If you did not find the answer to your question, please contact our support team. 
+          We will gladly help you!
         </p>
       </div>
       <div
         class="flex flex-col items-center px-6 py-12 space-y-5 text-center bg-white rounded-3xl"
       >
-        <img src="/img/icon/clock.svg" alt="Часы работы" />
-        <h2 class="text-lg font-semibold">Часы работы</h2>
+        <img src="/img/icon/clock.svg" alt="Opening hours" />
+        <h2 class="text-lg font-semibold">Opening hours</h2>
         <hr class="divider" />
         <div class="flex flex-col items-center">
-          <span>Понедельник - Четверг</span>
+          <span>Monday Thursday</span>
           <strong>8:00 – 22:00</strong>
         </div>
         <div class="flex flex-col items-center">
-          <span>Пятница - Воскресенье</span>
+          <span>Friday - Sunday</span>
           <strong>10:00 – 20:00</strong>
         </div>
       </div>
       <div
         class="flex flex-col items-center px-3 py-12 space-y-5 text-center bg-white rounded-3xl"
       >
-        <img src="/img/icon/help-chat.svg" alt="Служба поддержки (LIVE)" />
-        <h2 class="text-lg font-semibold">Служба поддержки (LIVE)</h2>
+        <img src="/img/icon/help-chat.svg" alt="Support (LIVE)" />
+        <h2 class="text-lg font-semibold">Support (LIVE)</h2>
         <hr class="divider" />
         <a href="#" class="font-semibold text-primary">
-          Онлайн чат в правом нижнем углу экрана
+          Online chat in the lower right corner of the screen
         </a>
         <div class="flex flex-col items-center">
-          <span>Среднее время ответа</span>
-          <strong>5 минут</strong>
+          <span>Average response time</span>
+          <strong>5 minutes</strong>
         </div>
       </div>
       <div
         class="flex flex-col items-center px-3 py-12 space-y-5 text-center bg-white rounded-3xl"
       >
-        <img src="/img/icon/help-email.svg" alt="Служба поддержки (EMAIL)" />
-        <h2 class="text-lg font-semibold">Служба поддержки (EMAIL)</h2>
+        <img src="/img/icon/help-email.svg" alt="Support (EMAIL)" />
+        <h2 class="text-lg font-semibold">Support (EMAIL)</h2>
         <hr class="divider" />
         <a href="mailto:help@ezcash.gg" class="font-semibold text-primary">
           help@ezcash.gg
         </a>
         <div class="flex flex-col items-center">
-          <span>Понедельник - Четверг</span>
-          <strong>120 минут</strong>
+          <span>Monday Thursday</span>
+          <strong>120 minutes</strong>
         </div>
       </div>
       <div
         class="flex flex-col items-center px-3 py-12 space-y-5 text-center bg-white rounded-3xl"
       >
-        <img src="/img/icon/help-email.svg" alt="Технический отдел (EMAIL)" />
-        <h2 class="text-lg font-semibold">Технический отдел (EMAIL)</h2>
+        <img src="/img/icon/help-email.svg" alt="Technical department (EMAIL)" />
+        <h2 class="text-lg font-semibold">Technical department (EMAIL)</h2>
         <hr class="divider" />
         <a href="mailto:tech@ezcash.gg" class="font-semibold text-primary">
           tech@ezcash.gg
         </a>
         <div class="flex flex-col items-center">
-          <span>Понедельник - Четверг</span>
-          <strong>48 часов</strong>
+          <span>Monday Thursday</span>
+          <strong>48 hours</strong>
         </div>
       </div>
       <div class="p-4 bg-white xl:p-12 xl:col-span-4 rounded-3xl">
-        <h2 class="mb-5 text-lg font-semibold">Ответы на популярные вопросы</h2>
+        <h2 class="mb-5 text-lg font-semibold">Answers to popular questions</h2>
         <div class="help__questions">
           <app-spoiler></app-spoiler>
           <app-spoiler></app-spoiler>
@@ -79,45 +79,44 @@
         </div>
       </div>
       <div class="p-4 bg-white xl:p-12 xl:col-span-4 rounded-3xl">
-        <h2 class="mb-5 text-lg font-semibold">Ограничения</h2>
+        <h2 class="mb-5 text-lg font-semibold">Restrictions</h2>
         <div class="grid gap-4 xl:grid-cols-3">
           <div class="flex items-start">
             <img src="/img/icon/close-red.svg" class="mt-1 mr-4" alt="Stop" />
             <p class="text-xs">
-              Одному пользователю запрещено регистрировать более одного аккаунта
+              One user is not allowed to register more than one account
             </p>
           </div>
           <div class="flex items-start">
             <img src="/img/icon/close-red.svg" class="mt-1 mr-4" alt="Stop" />
             <p class="text-xs">
-              Запрещена регистрация более одного аккаунта с одного ip адреса
+              It is forbidden to register more than one account from one ip address
             </p>
           </div>
           <div class="flex items-start">
             <img src="/img/icon/close-red.svg" class="mt-1 mr-4" alt="Stop" />
             <p class="text-xs">
-              Запрещено использование сайта в целях обмена валют
+              It is forbidden to use the site for the purpose of exchanging currencies
             </p>
           </div>
           <div class="flex items-start">
             <img src="/img/icon/close-red.svg" class="mt-1 mr-4" alt="Stop" />
             <p class="text-xs">
-              Вывод средств доступен после 20 сыгранных игр на сайте
+              Withdrawal is available after 20 games played on the site
             </p>
           </div>
           <div class="flex items-start">
             <img src="/img/icon/close-red.svg" class="mt-1 mr-4" alt="Stop" />
             <p class="text-xs">
-              При общении в чате или с операторами технической поддержки
-              соблюдайте субординацию: не используйте нецензурную лексику и не
-              оскорбляйте собеседника.
+              When communicating in a chat or with technical support operators, 
+              observe subordination: do not use obscene language and do not insult the interlocutor.
             </p>
           </div>
           <div class="flex items-start">
             <img src="/img/icon/close-red.svg" class="mt-1 mr-4" alt="Stop" />
             <p class="text-xs">
-              Запрещено размещение ссылок на сторонние ресурсы, размещение своих
-              партнерских ссылок, спам, флуд, попрошайничество.
+              It is forbidden to post links to third-party resources, 
+              post your affiliate links, spam, flood, begging.
             </p>
           </div>
         </div>

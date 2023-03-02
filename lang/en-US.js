@@ -47,5 +47,6 @@ export default {
   'sign-in': 'Sign in',
   'new-account': "Create an account",
   'sign-up': "Register",
-  'social': "Through social net"
+  'social': "Through social net",
+  'add-money': "Add money"
 }
